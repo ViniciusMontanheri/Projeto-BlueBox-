@@ -139,6 +139,12 @@
     <Compile Include="Excluir.Designer.cs">
       <DependentUpon>Excluir.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCadastro.Designer.cs">
+      <DependentUpon>MenuCadastro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Excluir.resx">
       <DependentUpon>Excluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCadastro.resx">
+      <DependentUpon>MenuCadastro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
