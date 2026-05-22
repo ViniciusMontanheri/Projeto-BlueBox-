@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\allan.ssilva4\\source\\repos\\bibliteca\\bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Excluir.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Excluir.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Excluir.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Excluir.cs",
+              "RelativeToolTip": "Bibliteca\\Excluir.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T19:06:45.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Excluir.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Excluir.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Excluir.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Excluir.cs [Design]",
+              "RelativeToolTip": "Bibliteca\\Excluir.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T19:02:50.071Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Atualizar.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Atualizar.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Atualizar.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Atualizar.cs",
+              "RelativeToolTip": "Bibliteca\\Atualizar.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwD8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:39:54.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAOAutor.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\DAOAutor.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\DAOAutor.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\DAOAutor.cs",
+              "RelativeToolTip": "Bibliteca\\DAOAutor.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:31:37.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Atualizar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Atualizar.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Atualizar.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Atualizar.cs [Design]",
+              "RelativeToolTip": "Bibliteca\\Atualizar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:20:06.12Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cadastrar.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Cadastrar.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Cadastrar.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Cadastrar.cs",
+              "RelativeToolTip": "Bibliteca\\Cadastrar.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:18:52.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Menu.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Menu.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Menu.cs",
+              "RelativeToolTip": "Bibliteca\\Menu.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:51:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Menu.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Menu.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Menu.cs [Design]",
+              "RelativeToolTip": "Bibliteca\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:51:05.355Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Consultar.cs",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Consultar.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Consultar.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Consultar.cs",
+              "RelativeToolTip": "Bibliteca\\Consultar.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:32:59.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Consultar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Consultar.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Consultar.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Consultar.cs [Design]",
+              "RelativeToolTip": "Bibliteca\\Consultar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:32:17.917Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cadastrar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Cadastrar.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Cadastrar.cs",
+              "ToolTip": "C:\\Users\\allan.ssilva4\\source\\repos\\Bibliteca\\Bibliteca\\Cadastrar.cs [Design]",
+              "RelativeToolTip": "Bibliteca\\Cadastrar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:32:17.218Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

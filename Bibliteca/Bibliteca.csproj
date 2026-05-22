@@ -118,11 +118,11 @@
     <Compile Include="Atualizar.Designer.cs">
       <DependentUpon>Atualizar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastrar.cs">
+    <Compile Include="CadastrarFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastrar.Designer.cs">
-      <DependentUpon>Cadastrar.cs</DependentUpon>
+    <Compile Include="CadastrarFuncionario.Designer.cs">
+      <DependentUpon>CadastrarFuncionario.cs</DependentUpon>
     </Compile>
     <Compile Include="Consultar.cs">
       <SubType>Form</SubType>
@@ -161,8 +161,8 @@
     <EmbeddedResource Include="Atualizar.resx">
       <DependentUpon>Atualizar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cadastrar.resx">
-      <DependentUpon>Cadastrar.cs</DependentUpon>
+    <EmbeddedResource Include="CadastrarFuncionario.resx">
+      <DependentUpon>CadastrarFuncionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultar.resx">
       <DependentUpon>Consultar.cs</DependentUpon>

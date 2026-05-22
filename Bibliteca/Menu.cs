@@ -13,7 +13,7 @@ namespace Bibliteca
 {
     public partial class Menu : Form
     {
-        Cadastrar cad;
+        CadastrarFuncionario cad;
         Consultar con;
         Atualizar atu;
         Excluir exc;
@@ -30,7 +30,7 @@ namespace Bibliteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cad = new Cadastrar();
+            cad = new CadastrarFuncionario();
             cad.ShowDialog();
         }//Botão Cadastrar
 

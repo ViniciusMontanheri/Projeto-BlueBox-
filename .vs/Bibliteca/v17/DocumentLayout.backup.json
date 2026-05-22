@@ -3,52 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\monta\\source\\repos\\bibliotecabdti23t-main\\bibliteca\\cadastrarfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\cadastrarfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\monta\\source\\repos\\bibliotecabdti23t-main\\bibliteca\\cadastrarfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\cadastrarfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\monta\\source\\repos\\bibliotecabdti23t-main\\bibliteca\\cadastrarfuncionario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\cadastrarfuncionario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|c:\\users\\monta\\source\\repos\\bibliotecabdti23t-main\\bibliteca\\designajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\designajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\designajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\menu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\menu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\consultar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\consultar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74AC2B25-00A0-4C98-BC1F-9332C201A0C4}|Bibliteca\\Bibliteca.csproj|solutionrelative:bibliteca\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,8 +62,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -82,7 +78,62 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastrarFuncionario.cs",
+              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\CadastrarFuncionario.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\CadastrarFuncionario.cs",
+              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\CadastrarFuncionario.cs",
+              "RelativeToolTip": "Bibliteca\\CadastrarFuncionario.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwvy0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:18:52.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CadastrarFuncionario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\CadastrarFuncionario.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\CadastrarFuncionario.cs",
+              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\CadastrarFuncionario.cs [Design]",
+              "RelativeToolTip": "Bibliteca\\CadastrarFuncionario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:32:17.218Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastrarFuncionario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\CadastrarFuncionario.Designer.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\CadastrarFuncionario.Designer.cs",
+              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\CadastrarFuncionario.Designer.cs",
+              "RelativeToolTip": "Bibliteca\\CadastrarFuncionario.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T13:48:54.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Menu.cs",
+              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.cs",
+              "RelativeToolTip": "Bibliteca\\Menu.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAArwDwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:51:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.cs",
               "RelativeDocumentMoniker": "Bibliteca\\Menu.cs",
@@ -94,107 +145,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.Designer.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\Menu.Designer.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.Designer.cs",
-              "RelativeToolTip": "Bibliteca\\Menu.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T18:34:45.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\Menu.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.cs",
-              "RelativeToolTip": "Bibliteca\\Menu.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAADwv0gAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:51:06.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DesignAjustes.cs",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DesignAjustes.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\DesignAjustes.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DesignAjustes.cs",
-              "RelativeToolTip": "Bibliteca\\DesignAjustes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T23:20:46.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Menu.resx",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.resx",
-              "RelativeDocumentMoniker": "Bibliteca\\Menu.resx",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Menu.resx",
-              "RelativeToolTip": "Bibliteca\\Menu.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-16T18:09:31.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Consultar.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Consultar.Designer.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\Consultar.Designer.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Consultar.Designer.cs",
-              "RelativeToolTip": "Bibliteca\\Consultar.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T18:45:35.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Consultar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Consultar.cs",
               "RelativeDocumentMoniker": "Bibliteca\\Consultar.cs",
               "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Consultar.cs [Design]",
               "RelativeToolTip": "Bibliteca\\Consultar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:32:17.917Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-21T10:21:33.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cadastrar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Cadastrar.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\Cadastrar.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Cadastrar.cs [Design]",
-              "RelativeToolTip": "Bibliteca\\Cadastrar.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Excluir.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Excluir.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\Excluir.cs",
+              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Excluir.cs [Design]",
+              "RelativeToolTip": "Bibliteca\\Excluir.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:32:17.218Z",
+              "WhenOpened": "2026-04-23T19:02:50.071Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Atualizar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Atualizar.cs",
               "RelativeDocumentMoniker": "Bibliteca\\Atualizar.cs",
               "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Atualizar.cs [Design]",
               "RelativeToolTip": "Bibliteca\\Atualizar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:20:06.12Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-23T17:20:06.12Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "DAOAutor.cs",
+              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DAOAutor.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\DAOAutor.cs",
+              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DAOAutor.cs",
+              "RelativeToolTip": "Bibliteca\\DAOAutor.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAjwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:31:37.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DesignAjustes.cs",
+              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DesignAjustes.cs",
+              "RelativeDocumentMoniker": "Bibliteca\\DesignAjustes.cs",
+              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DesignAjustes.cs",
+              "RelativeToolTip": "Bibliteca\\DesignAjustes.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T23:20:46.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Excluir.cs",
               "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Excluir.cs",
               "RelativeDocumentMoniker": "Bibliteca\\Excluir.cs",
@@ -207,33 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DAOAutor.cs",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DAOAutor.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\DAOAutor.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\DAOAutor.cs",
-              "RelativeToolTip": "Bibliteca\\DAOAutor.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAiwE4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:31:37.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Cadastrar.cs",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Cadastrar.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\Cadastrar.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Cadastrar.cs",
-              "RelativeToolTip": "Bibliteca\\Cadastrar.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:18:52.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Atualizar.cs",
               "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Atualizar.cs",
               "RelativeDocumentMoniker": "Bibliteca\\Atualizar.cs",
@@ -241,24 +224,11 @@
               "RelativeToolTip": "Bibliteca\\Atualizar.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAUwD8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:39:54.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T17:39:54.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Excluir.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Excluir.cs",
-              "RelativeDocumentMoniker": "Bibliteca\\Excluir.cs",
-              "ToolTip": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Excluir.cs [Design]",
-              "RelativeToolTip": "Bibliteca\\Excluir.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T19:02:50.071Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Consultar.cs",
               "DocumentMoniker": "C:\\Users\\monta\\source\\repos\\BibliotecaBDTI23T-main\\Bibliteca\\Consultar.cs",
               "RelativeDocumentMoniker": "Bibliteca\\Consultar.cs",
@@ -266,8 +236,7 @@
               "RelativeToolTip": "Bibliteca\\Consultar.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:32:59.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T16:32:59.29Z"
             }
           ]
         }
