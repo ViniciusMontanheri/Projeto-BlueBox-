@@ -118,6 +118,12 @@
     <Compile Include="Atualizar.Designer.cs">
       <DependentUpon>Atualizar.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastrarCliente .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarCliente .Designer.cs">
+      <DependentUpon>CadastrarCliente .cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastrarFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +172,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Atualizar.resx">
       <DependentUpon>Atualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarCliente .resx">
+      <DependentUpon>CadastrarCliente .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastrarFuncionario.resx">
       <DependentUpon>CadastrarFuncionario.cs</DependentUpon>
