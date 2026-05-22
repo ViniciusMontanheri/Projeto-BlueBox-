@@ -82,7 +82,6 @@ C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\bin\Debug\System.Nu
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.Atualizar.resources
-C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.Cadastrar.resources
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.Consultar.resources
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.Excluir.resources
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.Menu.resources
@@ -90,3 +89,4 @@ C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.csproj.GenerateResource.cache
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.csproj.CoreCompileInputs.cache
 C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.csproj.Up2Date
+C:\Users\monta\source\repos\BibliotecaBDTI23T-main\Bibliteca\obj\Debug\Bibliteca.CadastrarFuncionario.resources

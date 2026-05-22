@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bibliteca;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,11 +20,14 @@ namespace Bibliteca
             InitializeComponent();
             //Inserir
             this.autor = new DAOAutor();
+
+            //Arredondar botão
+            DesignAjustes.ArredondarBotao(button1, 20);
         }//fim do construtor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if ((textBox1.Text == "") || (maskedTextBox1.Text == "") || (textBox3.Text == ""))
+            if ((textBox1.Text == "") || (maskedTextBox1.Text == "") || (textBox2.Text == "") || (textBox3.Text == "")  || (maskedTextBox2.Text == "") || (textBox4.Text == ""))
             {
                 MessageBox.Show("Preencha os campos");
             }
@@ -45,6 +49,9 @@ namespace Bibliteca
             textBox1.Text = "";
             maskedTextBox1.Text = "";
             textBox3.Text = "";
+            textBox2.Text = "";
+            textBox4.Text = "";
+            maskedTextBox2.Text = "";
         }//fim do método
 
 
@@ -54,15 +61,30 @@ namespace Bibliteca
 
         }//fim do campo nome
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
-        }//fim do campo gênero
+        }//Fim do campo CPF
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }//fim do campo endereço
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }//Fim do campo telefone
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }//Fim do campo email/telefone
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }//fim do campo senha
 
         private void Cadastrar_Load(object sender, EventArgs e)
         {
@@ -96,5 +118,7 @@ namespace Bibliteca
         {
             button1.BackColor = Color.FromArgb(59, 130, 246); //colocando a cor que eu quero
         }
+
+        
     }//fim da classe
 }//fim do projeto
