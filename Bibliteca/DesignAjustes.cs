@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.Drawing; //Traz classes graficas
 using System.Drawing.Drawing2D; //Recursos graficos melhores
 
-namespace Bibliteca
+namespace BlueBox
 {
     internal class DesignAjustes
     {

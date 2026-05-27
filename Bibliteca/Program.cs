@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;//Importar a biblioteca
 
 
-namespace Bibliteca
+namespace BlueBox
 {
     internal class Program
     {
@@ -16,7 +16,7 @@ namespace Bibliteca
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new login());
         }//fim do método main
     }//fim da classe
 }//fim do projeto
