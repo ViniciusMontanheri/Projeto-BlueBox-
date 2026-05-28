@@ -109,6 +109,24 @@ namespace BlueBox
 
             if (tabela.Rows.Count > 0)
             {
+                Sessao.CodigoFuncionario =
+                    Convert.ToInt32(tabela.Rows[0]["codigo"]);
+
+                Sessao.NomeFuncionario =
+                    tabela.Rows[0]["nome"].ToString();
+
+                Sessao.LoginFuncionario =
+                    tabela.Rows[0]["login"].ToString();
+
+                DAOLog daoLog = new DAOLog();
+
+                daoLog.RegistrarLog(
+                    Sessao.CodigoFuncionario,
+                    "LOGIN",
+                    "funcionario",
+                    Sessao.CodigoFuncionario,
+                    "Funcionário realizou login");
+
                 bool adm =
                     Convert.ToBoolean(tabela.Rows[0]["adm"]);
 

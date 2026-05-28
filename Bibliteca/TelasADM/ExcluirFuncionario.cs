@@ -65,6 +65,22 @@ namespace BlueBox
 
                     MessageBox.Show(resultado);
 
+                    // Registrar log SOMENTE se excluiu
+                    if (resultado == "Funcionário desativado com sucesso!")
+                    {
+                        DAOLog log = new DAOLog();
+
+                        log.RegistrarLog(
+                            Sessao.CodigoFuncionario,
+                            "DELETE",
+                            "funcionario",
+                            codigo,
+                            "Funcionário " +
+                            Sessao.NomeFuncionario +
+                            " desativou o funcionário " +
+                            nome);
+                    }
+
                     textBox1.Clear();
                 }
             }

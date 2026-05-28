@@ -11,13 +11,13 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BlueBox
 {
-    public partial class ExcluirCliente : Form
+    public partial class Excluir : Form
     {
-        DAOCliente dao;
-        public ExcluirCliente()
+        DAOFuncionario dao;
+        public Excluir()
         {
             InitializeComponent();
-            this.dao = new DAOCliente();
+            this.dao = new DAOFuncionario();
         }//fim do construtor
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace BlueBox
                 return;
             }
 
-            DataTable tabela = dao.BuscarCliente(codigo);
+            DataTable tabela = dao.BuscarFuncionario(codigo);
 
             if (tabela.Rows.Count > 0)
             {
@@ -50,47 +50,31 @@ namespace BlueBox
                 string telefone = tabela.Rows[0]["telefone"].ToString();
 
                 DialogResult resposta = MessageBox.Show(
-                    "Cliente encontrado:\n\n" +
+                    "Funcionário encontrado:\n\n" +
                     "Nome: " + nome + "\n" +
                     "CPF: " + cpf + "\n" +
                     "Telefone: " + telefone + "\n\n" +
-                    "Deseja excluir este cliente?",
+                    "Deseja excluir este funcionário?",
                     "Confirmação",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Warning);
 
                 if (resposta == DialogResult.Yes)
                 {
-                    string resultado = dao.DeletarCliente(codigo);
+                    string resultado = dao.DeletarFuncionario(codigo);
 
                     MessageBox.Show(resultado);
-
-                    // Registrar log somente se excluiu
-                    if (resultado == "Cliente desativado com sucesso!")
-                    {
-                        DAOLog log = new DAOLog();
-
-                        log.RegistrarLog(
-                            Sessao.CodigoFuncionario,
-                            "DELETE",
-                            "cliente",
-                            codigo,
-                            "Funcionário " +
-                            Sessao.NomeFuncionario +
-                            " desativou o cliente " +
-                            nome);
-                    }
 
                     textBox1.Clear();
                 }
             }
             else
             {
-                MessageBox.Show("Cliente não encontrado");
+                MessageBox.Show("Funcionário não encontrado");
             }
         }//fim do botão Excluir
 
-        private void ExcluirCliente_Load(object sender, EventArgs e)
+        private void Excluir_Load(object sender, EventArgs e)
         {
 
         }

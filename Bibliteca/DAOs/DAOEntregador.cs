@@ -25,7 +25,8 @@ namespace BlueBox
                 {
                     string sql = @"SELECT codigo, nome, cpf,
                                    veiculo, cnh, login
-                                   FROM entregador";
+                                   FROM entregador
+                                   WHERE ativo = true";
 
                     MySqlDataAdapter adapter =
                         new MySqlDataAdapter(sql, conexao);
@@ -51,7 +52,8 @@ namespace BlueBox
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
                     string sql = @"SELECT * FROM entregador
-                                   WHERE codigo = @codigo";
+                                   WHERE codigo = @codigo
+                                   AND ativo = true";
 
                     MySqlCommand comando =
                         new MySqlCommand(sql, conexao);
@@ -73,7 +75,7 @@ namespace BlueBox
         }//fim buscar
 
         // INSERIR
-        public void InserirEntregador(
+        public int InserirEntregador(
             string nome,
             string cpf,
             string veiculo,
@@ -85,8 +87,11 @@ namespace BlueBox
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
-                    cpf = cpf.Replace(".", "").Replace("-", "");
+                    // Limpando CPF
+                    cpf = cpf.Replace(".", "")
+                             .Replace("-", "");
 
+                    // Limpando CNH
                     cnh = cnh.Replace(".", "")
                              .Replace("-", "");
 
@@ -107,7 +112,11 @@ namespace BlueBox
 
                     comando.ExecuteNonQuery();
 
+                    int codigoGerado = Convert.ToInt32(comando.LastInsertedId);
+
                     MessageBox.Show("Entregador cadastrado com sucesso!");
+
+                    return codigoGerado;
                 }
             }
             catch (MySqlException erro)
@@ -120,11 +129,15 @@ namespace BlueBox
                 {
                     MessageBox.Show("Erro no banco: " + erro.Message);
                 }
+
+                return 0;
             }
             catch (Exception erro)
             {
                 MessageBox.Show("Erro geral: " + erro.Message);
             }
+
+            return 0;
         }//fim inserir
 
         // ATUALIZAR
@@ -141,8 +154,11 @@ namespace BlueBox
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
-                    cpf = cpf.Replace(".", "").Replace("-", "");
+                    // Limpando CPF
+                    cpf = cpf.Replace(".", "")
+                             .Replace("-", "");
 
+                    // Limpando CNH
                     cnh = cnh.Replace(".", "")
                              .Replace("-", "");
 
@@ -153,7 +169,8 @@ namespace BlueBox
                         cnh = @cnh,
                         login = @login,
                         senha = @senha
-                    WHERE codigo = @codigo";
+                    WHERE codigo = @codigo
+                    AND ativo = true";
 
                     MySqlCommand comando =
                         new MySqlCommand(sql, conexao);
@@ -192,8 +209,10 @@ namespace BlueBox
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
-                    string sql = @"DELETE FROM entregador
-                                   WHERE codigo = @codigo";
+                    string sql = @"UPDATE entregador
+                                   SET ativo = false
+                                   WHERE codigo = @codigo
+                                   AND ativo = true";
 
                     MySqlCommand comando =
                         new MySqlCommand(sql, conexao);
@@ -205,7 +224,7 @@ namespace BlueBox
 
                     if (linhasAfetadas > 0)
                     {
-                        return "Entregador excluído com sucesso!";
+                        return "Entregador desativado com sucesso!";
                     }
                     else
                     {
@@ -218,5 +237,81 @@ namespace BlueBox
                 return "Erro ao excluir: " + erro.Message;
             }
         }//fim deletar
+
+        // VERIFICAR SE EXISTE ENTREGADOR INATIVO
+        public bool EntregadorInativoExiste(string cpf)
+        {
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"SELECT COUNT(*) 
+                           FROM entregador
+                           WHERE cpf = @cpf
+                           AND ativo = false";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@cpf", cpf);
+
+                    int quantidade =
+                        Convert.ToInt32(comando.ExecuteScalar());
+
+                    return quantidade > 0;
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao verificar entregador: " + erro.Message);
+                return false;
+            }
+        }//fim verificar inativo
+
+
+        // REATIVAR ENTREGADOR
+        public void ReativarEntregador(
+            string nome,
+            string cpf,
+            string veiculo,
+            string cnh,
+            string login,
+            string senha)
+        {
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"UPDATE entregador
+                           SET nome = @nome,
+                               veiculo = @veiculo,
+                               cnh = @cnh,
+                               login = @login,
+                               senha = @senha,
+                               ativo = true
+                           WHERE cpf = @cpf";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@nome", nome);
+                    comando.Parameters.AddWithValue("@cpf", cpf);
+                    comando.Parameters.AddWithValue("@veiculo", veiculo);
+                    comando.Parameters.AddWithValue("@cnh", cnh);
+                    comando.Parameters.AddWithValue("@login", login);
+                    comando.Parameters.AddWithValue("@senha", senha);
+
+                    comando.ExecuteNonQuery();
+
+                    MessageBox.Show("Entregador reativado com sucesso!");
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao reativar entregador: " + erro.Message);
+            }
+        }//fim reativar
+
+
     }
 }

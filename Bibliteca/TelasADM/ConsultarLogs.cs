@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace BlueBox
 {
-    public partial class ConsultarEntregador : Form
+    public partial class ConsultarLogs : Form
     {
-        DAOEntregador dao;
+        DAOLog dao;
 
-        public ConsultarEntregador()
+        public ConsultarLogs()
         {
             InitializeComponent();
 
-            dao = new DAOEntregador();
+            dao = new DAOLog();
 
-            CarregarFuncionarios();
+            CarregarLogs();
         }
 
-        public void CarregarFuncionarios()
+        public void CarregarLogs()
         {
-            DataTable tabela = dao.ConsultarEntregadores();
+            DataTable tabela = dao.ConsultarLogs();
 
             dataGridView1.DataSource = tabela;
 

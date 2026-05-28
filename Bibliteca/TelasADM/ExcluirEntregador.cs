@@ -13,11 +13,11 @@ namespace BlueBox
 {
     public partial class ExcluirEntregador : Form
     {
-        DAOFuncionario dao;
+        DAOEntregador dao;
         public ExcluirEntregador()
         {
             InitializeComponent();
-            this.dao = new DAOFuncionario();
+            this.dao = new DAOEntregador();
         }//fim do construtor
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -41,29 +41,45 @@ namespace BlueBox
                 return;
             }
 
-            DataTable tabela = dao.BuscarFuncionario(codigo);
+            DataTable tabela = dao.BuscarEntregador(codigo);
 
             if (tabela.Rows.Count > 0)
             {
                 string nome = tabela.Rows[0]["nome"].ToString();
                 string cpf = tabela.Rows[0]["cpf"].ToString();
-                string telefone = tabela.Rows[0]["telefone"].ToString();
+                string veiculo = tabela.Rows[0]["veiculo"].ToString();
 
                 DialogResult resposta = MessageBox.Show(
                     "Entregador encontrado:\n\n" +
                     "Nome: " + nome + "\n" +
                     "CPF: " + cpf + "\n" +
-                    "Telefone: " + telefone + "\n\n" +
-                    "Deseja excluir este cliente?",
+                    "Veículo: " + veiculo + "\n\n" +
+                    "Deseja excluir este entregador?",
                     "Confirmação",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Warning);
 
                 if (resposta == DialogResult.Yes)
                 {
-                    string resultado = dao.DeletarFuncionario(codigo);
+                    string resultado = dao.DeletarEntregador(codigo);
 
                     MessageBox.Show(resultado);
+
+                    // Registrar log somente se excluiu
+                    if (resultado == "Entregador desativado com sucesso!")
+                    {
+                        DAOLog log = new DAOLog();
+
+                        log.RegistrarLog(
+                            Sessao.CodigoFuncionario,
+                            "DELETE",
+                            "entregador",
+                            codigo,
+                            "Funcionário " +
+                            Sessao.NomeFuncionario +
+                            " desativou o entregador " +
+                            nome);
+                    }
 
                     textBox1.Clear();
                 }

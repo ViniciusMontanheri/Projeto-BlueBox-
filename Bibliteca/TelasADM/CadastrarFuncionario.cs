@@ -68,9 +68,56 @@ namespace BlueBox
                     return;
                 }
 
+                if (funcionario.FuncionarioInativoExiste(cpf))
+                {
+                    DialogResult resposta = MessageBox.Show(
+                        "Este CPF pertence a um funcionário desativado.\n\n" +
+                        "Deseja reativar o cadastro?",
+                        "Reativar funcionário",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Question);
+
+                    if (resposta == DialogResult.Yes)
+                    {
+                        funcionario.ReativarFuncionario(
+                            nome,
+                            cpf,
+                            telefone,
+                            endereco,
+                            login,
+                            senha,
+                            adm);
+
+                        DAOLog logReativação = new DAOLog();
+
+                        logReativação.RegistrarLog(
+                            Sessao.CodigoFuncionario,
+                            "REATIVACAO",
+                            "funcionario",
+                            0,
+                            "Funcionário " +
+                            Sessao.NomeFuncionario +
+                            " reativou o funcionário " +
+                            nome);
+
+                        LimparCampos();
+
+                        return;
+                    }
+                }
+
                 // Inserir no banco
-                funcionario.InserirFuncionario(
-                    nome, cpf, telefone, endereco, login, senha, adm);
+                int codigoNovoFuncionario = funcionario.InserirFuncionario(nome, cpf, telefone, endereco, login, senha, adm);
+
+                DAOLog log = new DAOLog();
+
+                log.RegistrarLog(
+                Sessao.CodigoFuncionario,
+                "INSERT",
+                "funcionario",
+                codigoNovoFuncionario,
+                "Funcionário " + Sessao.NomeFuncionario +
+                " cadastrou o funcionário " + nome);
 
                 // Limpar os campos
                 LimparCampos();

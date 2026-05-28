@@ -11,18 +11,16 @@ using System.Windows.Forms;
 
 namespace BlueBox
 {
-    public partial class MenuConsultar : Form
+    public partial class MenuConsultarFun : Form
     {
         ConsultarFuncionario fun;
         ConsultarEntregador ent;
         ConsultarCliente cli;
-        ConsultarLogs log;
-        public MenuConsultar()
+        public MenuConsultarFun()
         {
             InitializeComponent();
 
             //chamando o metodo para arredondar os cantos dos botões
-            DesignAjustes.ArredondarBotao(button2, 20);
             DesignAjustes.ArredondarBotao(button3, 20);
             DesignAjustes.ArredondarBotao(button4, 20);
         }
@@ -45,12 +43,6 @@ namespace BlueBox
             cli.ShowDialog();
         }//fim do botão excluir
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            log = new ConsultarLogs();
-            log.ShowDialog();
-        }
-
         private void Menu_Load(object sender, EventArgs e)
         {
 
@@ -60,14 +52,12 @@ namespace BlueBox
         //colocando o efeito quando o mouse está em cima do botão
         private void button2_MouseEnter(object sender, EventArgs e)
         {
-            button2.BackColor = Color.FromArgb(37, 99, 235);//colocando a cor que eu quero
+            button3.BackColor = Color.FromArgb(37, 99, 235);//colocando a cor que eu quero
         }
         //tirando o efeito quando o mouse sai de cima do botão
         private void button2_MouseLeave(object sender, EventArgs e)
         {
-            button2.BackColor = Color.FromArgb(59, 130, 246); //colocando a cor que eu quero
+            button3.BackColor = Color.FromArgb(59, 130, 246); //colocando a cor que eu quero
         }
-
-        
     }//Classe Menu
 }//Projeto Biblioteca

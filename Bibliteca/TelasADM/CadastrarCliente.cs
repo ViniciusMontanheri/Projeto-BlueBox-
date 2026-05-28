@@ -41,6 +41,7 @@ namespace BlueBox
                 string nome = textBox1.Text;
                 string cpf = maskedTextBox1.Text;
                 string endereco = textBox3.Text;
+                string telefone = maskedTextBox2.Text;
 
                 if (!ValidaDados.ValidarCPF(cpf))
                 {
@@ -48,9 +49,55 @@ namespace BlueBox
                     return;
                 }
 
+                if (cliente.ClienteInativoExiste(cpf))
+                {
+                    DialogResult resposta = MessageBox.Show(
+                        "Este CPF pertence a um cliente desativado.\n\n" +
+                        "Deseja reativar o cadastro?",
+                        "Reativar cliente",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Question);
+
+                    if (resposta == DialogResult.Yes)
+                    {
+                        cliente.ReativarCliente(
+                            nome,
+                            cpf,
+                            telefone,
+                            endereco);
+
+                        DAOLog logCliente = new DAOLog();
+
+                        logCliente.RegistrarLog(
+                            Sessao.CodigoFuncionario,
+                            "REATIVACAO",
+                            "cliente",
+                            0,
+                            "Funcionário " +
+                            Sessao.NomeFuncionario +
+                            " reativou o cliente " +
+                            nome);
+
+                        LimparCampos();
+
+                        return;
+                    }
+                }
+
                 //Inserir dentro do banco
-                string telefone = maskedTextBox2.Text;
-                this.cliente.InserirCliente(nome, cpf, telefone, endereco);
+                int codigoNovoCliente = this.cliente.InserirCliente(nome, cpf, telefone, endereco);
+
+                DAOLog log = new DAOLog();
+
+                log.RegistrarLog(
+                    Sessao.CodigoFuncionario,
+                    "INSERT",
+                    "cliente",
+                    codigoNovoCliente,
+                    "Funcionário " +
+                    Sessao.NomeFuncionario +
+                    " cadastrou o cliente " +
+                    nome);
                 //Limpar os campos
                 LimparCampos();
             }

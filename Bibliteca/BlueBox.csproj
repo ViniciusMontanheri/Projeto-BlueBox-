@@ -115,12 +115,26 @@
   <!-- ARQUIVOS CS -->
   <ItemGroup>
     <Compile Include="ConexaoBD.cs" />
+    <Compile Include="DAOs\DAOLog.cs" />
     <Compile Include="DAOs\DAOEntregador.cs" />
     <Compile Include="DAOs\DAOCliente.cs" />
     <Compile Include="DAOs\DAOFuncionario.cs" />
     <Compile Include="Antigo\DAOAutor.cs" />
     <Compile Include="DesignAjustes.cs" />
+    <Compile Include="Funcionario\MenuAtualizarFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionario\MenuAtualizarFun.Designer.cs">
+      <DependentUpon>MenuAtualizarFun.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Sessao.cs" />
+    <Compile Include="TelasADM\ConsultarLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelasADM\ConsultarLogs.Designer.cs">
+      <DependentUpon>ConsultarLogs.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelasADM\ExcluirCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +146,18 @@
     </Compile>
     <Compile Include="TelasADM\ExcluirEntregador.Designer.cs">
       <DependentUpon>ExcluirEntregador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario\MenuCadastroFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionario\MenuCadastroFun.Designer.cs">
+      <DependentUpon>MenuCadastroFun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario\MenuConsultarFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionario\MenuConsultarFun.Designer.cs">
+      <DependentUpon>MenuConsultarFun.cs</DependentUpon>
     </Compile>
     <Compile Include="TelasADM\MenuExcluir.cs">
       <SubType>Form</SubType>
@@ -248,6 +274,9 @@
   </ItemGroup>
   <!-- RESX -->
   <ItemGroup>
+    <EmbeddedResource Include="Funcionario\MenuAtualizarFun.resx">
+      <DependentUpon>MenuAtualizarFun.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelasADM\AtualizarCliente.resx">
       <DependentUpon>AtualizarCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -272,6 +301,9 @@
     <EmbeddedResource Include="TelasADM\ConsultarEntregador.resx">
       <DependentUpon>ConsultarEntregador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TelasADM\ConsultarLogs.resx">
+      <DependentUpon>ConsultarLogs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelasADM\ConsultarFuncionario.resx">
       <DependentUpon>ConsultarFuncionario.cs</DependentUpon>
     </EmbeddedResource>
@@ -292,6 +324,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TelasADM\MenuAtualizarADM.resx">
       <DependentUpon>MenuAtualizarADM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario\MenuCadastroFun.resx">
+      <DependentUpon>MenuCadastroFun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario\MenuConsultarFun.resx">
+      <DependentUpon>MenuConsultarFun.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelasADM\MenuExcluir.resx">
       <DependentUpon>MenuExcluir.cs</DependentUpon>

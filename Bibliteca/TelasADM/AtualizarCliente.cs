@@ -132,6 +132,21 @@ namespace BlueBox
 
             MessageBox.Show(resultado);
 
+            if (resultado == "Cliente atualizado com sucesso!")
+            {
+                DAOLog log = new DAOLog();
+
+                log.RegistrarLog(
+                    Sessao.CodigoFuncionario,
+                    "UPDATE",
+                    "cliente",
+                    codigo,
+                    "Funcionário " +
+                    Sessao.NomeFuncionario +
+                    " atualizou o cliente " +
+                    textBox2.Text);
+            }
+
             // Limpar campos
             textBox1.Clear();
             textBox2.Clear();

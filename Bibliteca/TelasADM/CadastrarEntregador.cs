@@ -63,13 +63,64 @@ namespace BlueBox
                 return;
             }
 
-            dao.InserirEntregador(
-                nome,
-                cpf,
-                veiculo,
-                cnh,
-                login,
-                senha);
+            // validar CNH
+            if (!ValidaDados.ValidarCNH(cnh))
+            {
+                MessageBox.Show("CNH inválido!");
+                return;
+            }
+
+            int codigoNovoEntregador = dao.InserirEntregador(nome, cpf, veiculo, cnh, login, senha);
+
+            DAOLog log = new DAOLog();
+
+            // verificar se entregador inativo existe
+            if (dao.EntregadorInativoExiste(cpf))
+            {
+                DialogResult resposta = MessageBox.Show(
+                    "Este CPF pertence a um entregador desativado.\n\n" +
+                    "Deseja reativar o cadastro?",
+                    "Reativar entregador",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+                if (resposta == DialogResult.Yes)
+                {
+                    dao.ReativarEntregador(
+                        nome,
+                        cpf,
+                        veiculo,
+                        cnh,
+                        login,
+                        senha);
+
+                    DAOLog logEntregador = new DAOLog();
+
+                    logEntregador.RegistrarLog(
+                        Sessao.CodigoFuncionario,
+                        "REATIVACAO",
+                        "entregador",
+                        0,
+                        "Funcionário " +
+                        Sessao.NomeFuncionario +
+                        " reativou o entregador " +
+                        nome);
+
+                    LimparCampos();
+                    return;
+                }
+            }
+
+
+            log.RegistrarLog(
+                Sessao.CodigoFuncionario,
+                "INSERT",
+                "entregador",
+                codigoNovoEntregador,
+                "Funcionário " +
+                Sessao.NomeFuncionario +
+                " cadastrou o entregador " +
+                nome);
 
             LimparCampos();
         }//fim botão cadastrar

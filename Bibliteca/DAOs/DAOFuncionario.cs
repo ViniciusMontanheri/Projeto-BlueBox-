@@ -24,7 +24,7 @@ namespace BlueBox
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())//abrindo a conexao
                 {
-                    string sql = @"SELECT codigo, nome, cpf, telefone, endereco, login, adm FROM funcionario"; //fazendo o select no banco
+                    string sql = @"SELECT codigo, nome, cpf, telefone, endereco, login, adm FROM funcionario WHERE ativo = true"; //fazendo o select no banco
 
                     MySqlDataAdapter adapter = new MySqlDataAdapter(sql, conexao); //Criando um adaptador de dados
 
@@ -47,8 +47,7 @@ namespace BlueBox
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
-                    string sql = @"SELECT * FROM funcionario
-                           WHERE codigo = @codigo";
+                    string sql = @"SELECT * FROM funcionario WHERE codigo = @codigo AND ativo = true";
 
                     MySqlCommand comando =
                         new MySqlCommand(sql, conexao);
@@ -120,7 +119,7 @@ namespace BlueBox
                        login = @login,
                        senha = @senha,
                        adm = @adm
-                   WHERE codigo = @codigo";
+                   WHERE codigo = @codigo AND ativo = true";
 
                     MySqlCommand comando =
                         new MySqlCommand(sql, conexao);
@@ -153,7 +152,7 @@ namespace BlueBox
         }//Fim do Atualizar
 
         // Mandando os dados para o banco atraves do ConexaoBD
-        public void InserirFuncionario(
+        public int InserirFuncionario(
             string nome,
             string cpf,
             string telefone,
@@ -184,7 +183,12 @@ namespace BlueBox
 
                     comando.ExecuteNonQuery(); //Executando o comando de fato
 
+                    int codigoGerado =
+                        Convert.ToInt32(comando.LastInsertedId);
+
                     MessageBox.Show("Funcionário cadastrado com sucesso!");
+
+                    return codigoGerado;
 
                 }
             }
@@ -204,6 +208,8 @@ namespace BlueBox
             {
                 MessageBox.Show("Erro geral: " + erro.Message);
             }
+
+            return 0;
         }
                     // Deletar funcionário
         public string DeletarFuncionario(int codigo)
@@ -212,11 +218,9 @@ namespace BlueBox
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
-                    string sql = @"DELETE FROM funcionario
-                                   WHERE codigo = @codigo";
+                    string sql = @"UPDATE funcionario SET ativo = false WHERE codigo = @codigo AND ativo = true";
 
-                    MySqlCommand comando =
-                        new MySqlCommand(sql, conexao);
+                    MySqlCommand comando = new MySqlCommand(sql, conexao);
 
                     comando.Parameters.AddWithValue("@codigo", codigo);
 
@@ -224,7 +228,7 @@ namespace BlueBox
 
                     if (linhasAfetadas > 0)
                     {
-                        return "Funcionário excluído com sucesso!";
+                        return "Funcionário desativado com sucesso!";
                     }
                     else
                     {
@@ -247,9 +251,7 @@ namespace BlueBox
             {
                 using (MySqlConnection conexao = banco.AbrirConexao())
                 {
-                    string sql = @"SELECT * FROM funcionario
-                           WHERE login = @login
-                           AND senha = @senha";
+                    string sql = @"SELECT * FROM funcionario WHERE login = @login AND senha = @senha AND ativo = true";
 
                     MySqlCommand comando =
                         new MySqlCommand(sql, conexao);
@@ -269,6 +271,82 @@ namespace BlueBox
             }
 
             return tabela;
+
+
         }//Fim do verificar login
+
+        //Verificar se a conta está inativa
+        public bool FuncionarioInativoExiste(string cpf)
+        {
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"SELECT * FROM funcionario
+                           WHERE cpf = @cpf
+                           AND ativo = false";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@cpf", cpf);
+
+                    MySqlDataReader reader =
+                        comando.ExecuteReader();
+
+                    return reader.HasRows;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        //reativando a conta
+        public void ReativarFuncionario(
+    string nome,
+    string cpf,
+    string telefone,
+    string endereco,
+    string login,
+    string senha,
+    bool adm)
+        {
+            try
+            {
+                using (MySqlConnection conexao = banco.AbrirConexao())
+                {
+                    string sql = @"UPDATE funcionario
+                           SET nome = @nome,
+                               telefone = @telefone,
+                               endereco = @endereco,
+                               login = @login,
+                               senha = @senha,
+                               adm = @adm,
+                               ativo = true
+                           WHERE cpf = @cpf";
+
+                    MySqlCommand comando =
+                        new MySqlCommand(sql, conexao);
+
+                    comando.Parameters.AddWithValue("@nome", nome);
+                    comando.Parameters.AddWithValue("@cpf", cpf);
+                    comando.Parameters.AddWithValue("@telefone", telefone);
+                    comando.Parameters.AddWithValue("@endereco", endereco);
+                    comando.Parameters.AddWithValue("@login", login);
+                    comando.Parameters.AddWithValue("@senha", senha);
+                    comando.Parameters.AddWithValue("@adm", adm);
+
+                    comando.ExecuteNonQuery();
+
+                    MessageBox.Show("Funcionário reativado com sucesso!");
+                }
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro: " + erro.Message);
+            }
+        }
     }
 }

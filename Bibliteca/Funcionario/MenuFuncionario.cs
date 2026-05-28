@@ -13,10 +13,9 @@ namespace BlueBox
 {
     public partial class MenuFuncionario : Form
     {
-        MenuCadastro cad;
-        ConsultarFuncionario con;
+        MenuCadastroFun cad;
+        MenuConsultarFun con;
         MenuAtualizarADM atu;
-        ExcluirFuncionario exc;
         public MenuFuncionario()
         {
             InitializeComponent();
@@ -25,18 +24,17 @@ namespace BlueBox
             DesignAjustes.ArredondarBotao(button1, 20);
             DesignAjustes.ArredondarBotao(button2, 20);
             DesignAjustes.ArredondarBotao(button3, 20);
-            DesignAjustes.ArredondarBotao(button4, 20);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cad = new MenuCadastro();
+            cad = new MenuCadastroFun();
             cad.ShowDialog();
         }//Botão Cadastrar
 
         private void button2_Click(object sender, EventArgs e)
         {
-            con = new ConsultarFuncionario();
+            con = new MenuConsultarFun();
             con.ShowDialog();
         }//Botão Consultar
 
@@ -45,12 +43,6 @@ namespace BlueBox
             atu = new MenuAtualizarADM();
             atu.ShowDialog();
         }//fim do botão atualizar
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            exc = new ExcluirFuncionario();
-            exc.ShowDialog();
-        }//fim do botão excluir
 
         private void Menu_Load(object sender, EventArgs e)
         {

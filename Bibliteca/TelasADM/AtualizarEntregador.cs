@@ -12,11 +12,11 @@ namespace BlueBox
 {
     public partial class AtualizarEntregador : Form
     {
-        DAOAutor dao;
+        DAOEntregador dao;
         public AtualizarEntregador()
         {
             InitializeComponent();
-            dao = new DAOAutor();//Instanciando a classe
+            dao = new DAOEntregador();//Instanciando a classe
         }//fim do construtor
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -28,13 +28,37 @@ namespace BlueBox
         {
             if (textBox1.Text == "")
             {
-                MessageBox.Show("Preencha o Código");
+                MessageBox.Show("Preencha o código!");
             }
             else
             {
                 int codigo = Convert.ToInt32(textBox1.Text);
-                textBox2.Text = this.dao.ConsultarNome(codigo);
-                textBox4.Text = this.dao.ConsultarEndereco(codigo);
+
+                DataTable tabela = dao.BuscarEntregador(codigo);
+
+                if (tabela.Rows.Count > 0)
+                {
+                    textBox2.Text = tabela.Rows[0]["nome"].ToString();
+
+                    maskedTextBox1.Text =
+                        tabela.Rows[0]["cpf"].ToString();
+
+                    textBox4.Text =
+                        tabela.Rows[0]["veiculo"].ToString();
+
+                    maskedTextBox2.Text =
+                        tabela.Rows[0]["cnh"].ToString();
+
+                    textBox3.Text =
+                        tabela.Rows[0]["login"].ToString();
+
+                    textBox5.Text =
+                        tabela.Rows[0]["senha"].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Entregador não encontrado!");
+                }
             }
         }//Fim do botão buscar
 
@@ -71,22 +95,50 @@ namespace BlueBox
         private void button2_Click(object sender, EventArgs e)
         {
             int codigo = Convert.ToInt32(textBox1.Text);
-            //Atualizar
-            this.dao.Atualizar(codigo, "nome", textBox2.Text);
-            string atualizar = this.dao.Atualizar(codigo, "endereco", textBox4.Text);
-            //Mandar uma mensagem de atualização
-            MessageBox.Show(atualizar);
-            //Limpar Campos
+
+            string resultado =
+                dao.AtualizarEntregador(
+                    codigo,
+                    textBox2.Text,
+                    maskedTextBox1.Text,
+                    textBox4.Text,
+                    maskedTextBox2.Text,
+                    textBox3.Text,
+                    textBox5.Text
+                );
+
+            MessageBox.Show(resultado);
+
+            if (resultado == "Entregador atualizado com sucesso!")
+            {
+                DAOLog log = new DAOLog();
+
+                log.RegistrarLog(
+                    Sessao.CodigoFuncionario,
+                    "UPDATE",
+                    "entregador",
+                    codigo,
+                    "Funcionário " +
+                    Sessao.NomeFuncionario +
+                    " atualizou o entregador " +
+                    textBox2.Text);
+            }
+
             textBox1.Text = "";
             textBox2.Text = "";
             textBox4.Text = "";
+            textBox3.Text = "";
+            textBox5.Text = "";
+
+            maskedTextBox1.Text = "";
+            maskedTextBox2.Text = "";
         }//fim do botão atualizar
 
 
 
         private void AtualizarEntregador_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label6_Click(object sender, EventArgs e)

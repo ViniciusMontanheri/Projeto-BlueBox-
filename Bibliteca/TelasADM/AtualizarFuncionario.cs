@@ -141,6 +141,22 @@ namespace BlueBox
 
             MessageBox.Show(resultado);
 
+            // Registrar log SOMENTE se atualizou
+            if (resultado == "Funcionário atualizado com sucesso!")
+            {
+                DAOLog log = new DAOLog();
+
+                log.RegistrarLog(
+                    Sessao.CodigoFuncionario,
+                    "UPDATE",
+                    "funcionario",
+                    codigo,
+                    "Funcionário " +
+                    Sessao.NomeFuncionario +
+                    " atualizou o cadastro de " +
+                    textBox2.Text);
+            }
+
             // Limpar campos
             textBox1.Clear();
             textBox2.Clear();
